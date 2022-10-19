@@ -1,0 +1,20 @@
+<?
+$HDD=$_GET['HDD'];
+if($HDD=='Maxtor'):
+?>
+<table>
+    <caption><big><b><i>Maxtor</i></b></big></caption>
+</table>
+<?
+elseif($HDD=="Seagate"):
+?>
+<table>
+    <caption><big><b><i>Seagate</i></b></big></caption>
+</table>
+<?
+else:
+?>
+    <table>
+        <caption><big><b>Введіть_певну_назву!</b></big></caption>
+    </table>
+<?endif?>
